@@ -10,12 +10,7 @@
     Downloads, docs, tutorials: http://www.blynk.cc
     Sketch generator:           http://examples.blynk.cc
 
-  char auth[] = "8f8e430dabe94c53b4b3f18d610abd87";
 
-  // Your WiFi credentials.
-  // Set password to "" for open networks.
-  char ssid[] = "ReItIUtQeaQsMzWwnNkw";
-  char pass[] = "SkyWalker2406";
 
   1:100011011100111000001000 293  dec:9293320 volet ch2
   2:100011011100111000000000 292  dec:9293312
@@ -127,12 +122,12 @@ long code[15] = {
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "8f8e430dabe94c53b4b3f18d610abd87";
+char auth[] = "";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "freebox_ACHMAR";//"ReItIUtQeaQsMzWwnNkw";
-char pass[] = "mohamadsouhela";//"SkyWalker2406";
+char ssid[] = "";//"";
+char pass[] = "";//"";
 
 // Hardware Serial on Mega, Leonardo, Micro...
 #define EspSerial Serial3
